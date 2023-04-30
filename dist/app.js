@@ -1,26 +1,4 @@
 "use strict";
-//function
-//ฟังชั้นที่ไม่มีการรับค่าและส่งค่า(void)
-function sayHello1() {
-    console.log("Hello from sayHello1");
-}
-//ฟังชั้นที่มีการรับค่า
-function sayHello2(name) {
-    console.log(`Hello ${name} from sayHello2`);
-}
-//ฟังชั้นที่มีการรคืนค่า
-function sayHello3() {
-    return `Hello  from sayHello3`;
-}
-//ฟังชั้นที่มีการรับค่าและส่งค่า
-function sayHello4(name) {
-    return `Hello ${name} from sayHello4`;
-}
-//ฟังชั้นที่ไม่รมีการรับค่าและส่งค่า
-sayHello1();
-sayHello2("Baramee");
-console.log(sayHello3());
-console.log(sayHello4("Baramee"));
 /*
 //Type Assertion
 
